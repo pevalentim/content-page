@@ -33,28 +33,49 @@ ul a {
     color: white;
 }
 ul a:hover {
-    background-color: rgb(151, 151, 151);
-    color: white;
+    background-color: #F5F5F5;
+    color: black;
 }
 ul a:active {
-    background-color: rgb(151, 151, 151);
+    background-color: #e9e8e8;
     color: white;
 }
 
 /* section */
 
-#search-bar{
-    background-image: url("https://icon-icons.com/pt/icone/Zoom-pesquisar-localizar-localize/90835");
-    background-repeat: no-repeat;
-}
 #media-search{
     border: 8px solid #F5F5F5;
     background-color: #F5F5F5;
+    padding: 0px 1%;
+    height: 3vh;
     display: flex;
     justify-content: space-between;
 }
-a img{
+
+#search-bar{
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+    padding: 5px;
+  }
+
+a img {
     width: 20px;
     margin-left: 20px;
 }
-/* NAVBAR */
+a img:hover {
+    width: 24px;
+
+}
+
+/* MAIN */
+main{
+    width: 80vw;
+    
+}
+
+
