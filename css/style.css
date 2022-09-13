@@ -15,11 +15,13 @@
 header{
 padding: 10px;
 }
-h1{
-    color:#2D97B0;
-}
+
+/* nav */
 ul{
     list-style-type: none;
+}
+li{
+    float: left;
 }
 
 ul a {
@@ -27,9 +29,11 @@ ul a {
     color: grey;
     display: block;
     padding: 20px;
+    background-color: #2D97B0;
+    color: white;
 }
 ul a:hover {
-    background-color: #FFB600;
+    background-color: rgb(151, 151, 151);
     color: white;
 }
 ul a:active {
@@ -37,14 +41,20 @@ ul a:active {
     color: white;
 }
 
-li{
-    float: left;
-}
+/* section */
 
+#search-bar{
+    background-image: url("https://icon-icons.com/pt/icone/Zoom-pesquisar-localizar-localize/90835");
+    background-repeat: no-repeat;
+}
+#media-search{
+    border: 8px solid #F5F5F5;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
 a img{
-    width: 50px;
+    width: 20px;
+    margin-left: 20px;
 }
-
 /* NAVBAR */
-
-/* #2D97B0 */
