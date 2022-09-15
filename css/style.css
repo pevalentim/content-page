@@ -63,7 +63,7 @@ ul a:active {
     padding: 5px;
   }
 
-a img {
+.media{
     width: 20px;
     margin-left: 20px;
 }
@@ -91,7 +91,24 @@ main{
     height: 47vh;
 }
 
-p{
+main p{
     font-size: 17px;
     margin-bottom: 20px;
+}
+
+/* FIXED IMAGE */
+
+#fixed{
+    position: fixed;
+    bottom: 0.5vh;
+    right: 7.5vw;
+}
+
+#fixed img{
+    width: 5vw;
+}
+
+#fixed p{
+    font-size: 10px;
+    font-weight: 700;
 }
