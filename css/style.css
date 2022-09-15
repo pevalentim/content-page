@@ -101,7 +101,7 @@ main p{
 
 #fixed{
     position: fixed;
-    bottom: 0.5vh;
+    bottom: 2vh;
     right: 7.5vw;
     text-align: center;
 }
