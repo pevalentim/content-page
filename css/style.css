@@ -88,13 +88,20 @@ main{
 
 #img1{
     width: 50vw;
-    height: 47vh;
+    height: 44vh;
 }
 
 main p{
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     line-height: 1.5rem;
+}
+#no-line{
+    margin-bottom: 0;
+}
+#light-p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 /* FIXED IMAGE */
