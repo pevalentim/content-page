@@ -64,12 +64,11 @@ ul a:active {
   }
 
 .media{
-    width: 20px;
-    margin-left: 20px;
+    width: 1.5vw;
+    margin-left: 1.5vw;
 }
 a img:hover {
-    width: 24px;
-
+    width: 1.6vw;
 }
 
 /* MAIN */
@@ -104,11 +103,34 @@ main p{
     margin-bottom: 1rem;
 }
 
+.external-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.external-link:hover{
+    color: #2D97B0;
+}
+.reference-link{
+    color: gray;
+}
+.reference-link:hover{
+    color: #2D97B0;
+}
+
+/* FOOTER */
+footer{
+    background-color: #e9e8e8;
+
+    height: 9vh;
+}
+
+
 /* FIXED IMAGE */
 
 #fixed{
     position: fixed;
-    bottom: 2vh;
+    bottom: 9vh;
     right: 7.5vw;
     text-align: center;
 }
