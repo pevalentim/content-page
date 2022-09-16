@@ -94,6 +94,7 @@ main p{
     font-size: 1.1rem;
     margin-bottom: 1.25rem;
     line-height: 1.5rem;
+    text-align: justify;
 }
 #no-line{
     margin-bottom: 0;
@@ -121,10 +122,11 @@ main p{
 /* FOOTER */
 footer{
     background-color: #e9e8e8;
-
     height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 /* FIXED IMAGE */
 
