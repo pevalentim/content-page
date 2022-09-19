@@ -119,6 +119,11 @@ main p{
     color: #2D97B0;
 }
 
+figcaption{
+    color:gray;
+    font-size: 0.9rem;
+}
+
 /* FOOTER */
 footer{
     background-color: #e9e8e8;
